@@ -1,18 +1,21 @@
 {
-    "name": "smart-tv-infinite-carousel",
-    "version": "1.0.0",
-    "description": "Smart Tv Infinite Carousel is a jQuery plugin for navigating horizontally any HTML based content in a carousel-like fashion. The plugin is optimised for use in Smart Tv applications.",
-    "main": "infiniteCarousel.js",
-    "moduleType": [ "amd" ],
+    "name": "jquery-slidertv",
+    "version": "1.0.5",
+    "description": SliderTV is an easy-to-use jQuery slider plugin optimized for Smart TV apps.",
+    "main": "sliderTV.js",
+    "moduleType": [ "globals" ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/gibbok/dojo-keyboard-shortcuts.git"
+        "url": "https://github.com/gibbok/jquery-slidertv.git"
     },
     "keywords": [
-        "dojo",
+        "slider",
+        "carousel",
+        "smart tv app",
+        "smart tv",
         "javascript",
-        "keyboard shortcuts",
-        "keycodes"
+        "jquery",
+        "jquery-plugin"
     ],
     "author": "GibboK",
     "license": "MIT",
