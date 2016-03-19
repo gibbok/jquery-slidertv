@@ -1,0 +1,69 @@
+﻿<!-- All movies, pictures/texts copyright to their respective owner(s). -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>SliderTV - Horizontal layout example</title>
+    <link href="css/horizontal.css" rel="stylesheet" />
+    <script src="../jquery/dist/jquery.js"></script>
+    <script src="../dist/sliderTV.js"></script>
+    <script src="js/horizontal.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div id="wrapper-sliderTv">
+            <!-- sliderTV html-->
+            <div id="sliderTV" class="sliderTV">
+                <!-- slidable items in carousel -->
+                <div id="item-0" class="sliderTV__item">
+                    <img src="assets/amelie.jpg">
+                    <h1>Amélie</h1>
+                </div>
+                <div id="item-1" class="sliderTV__item">
+                    <img src="assets/django-unchained.jpg">
+                    <h1>Django Unchained</h1>
+                </div>
+                <div id="item-2" class="sliderTV__item">
+                    <img src="assets/fight-club.jpg">
+                    <h1>Fight Club</h1>
+                </div>
+                <div id="item-3" class="sliderTV__item">
+                    <img src="assets/forrest-gump.jpg">
+                    <h1>Forrest Gump</h1>
+                </div>
+                <div id="item-4" class="sliderTV__item">
+                    <img src="assets/inglourious-basterds.jpg">
+                    <h1>Inglourious Basterds</h1>
+                </div>
+                <div id="item-5" class="sliderTV__item">
+                    <img src="assets/inside-out-2015.jpg">
+                    <h1>Inside Out</h1>
+                </div>
+                <div id="item-6" class="sliderTV__item">
+                    <img src="assets/interstellar.jpg">
+                    <h1>Interstellar</h1>
+                </div>
+                <div id="item-7" class="sliderTV__item">
+                    <img src="assets/leon-the-professional.jpg">
+                    <h1>Léon: The Professional</h1>
+                </div>
+                <div id="item-8" class="sliderTV__item">
+                    <img src="assets/san-andreas.jpg">
+                    <h1>San Andreas</h1>
+                </div>
+                <div id="sliderTV__mask-left"></div>
+                <div id="sliderTV__mask-right"></div>
+                <!-- optional navigational arrows -->
+                <div class="sliderTV__prev">&#10096;</div>
+                <div class="sliderTV__next">&#10097;</div>
+            </div>
+        </div>
+        <div id="help">
+            <h1>Instructions</h1>
+            <p>Use your keyboard left or right arrow to navigate to the next or previous movie, or alternatively click the left or right arrow on the screen.</p>
+            <p>Enter a value in the input field to jump to a movie:</p>
+            <p><input id="help__input" type="number" min="0" max="9" value="0" step="1"></p>
+        </div>
+    </div>
+</body>
+</html>

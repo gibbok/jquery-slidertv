@@ -1,0 +1,224 @@
+﻿*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    background: rgb(30, 30, 30);
+    height: 100%;
+}
+
+#wrapper-sliderTv {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    width: 1100px;
+    height: 600px;
+    overflow: hidden;
+}
+
+#sliderTV {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    width: 900px;
+    height: 500px;
+}
+
+.sliderTV__item {
+    width: inherit;
+    height: 430px;
+    opacity: 0.3;
+}
+
+    .sliderTV__item img {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        width: 260px;
+        height: 380px;
+        cursor: pointer;
+    }
+
+    .sliderTV__item h1 {
+        font-size: 30px;
+        color: whitesmoke;
+        text-shadow: 1px 1px 2px rgba(20, 20, 20, 1);
+    }
+
+    .sliderTV__item p {
+        font-size: 25px;
+        color: whitesmoke;
+    }
+
+.sliderTV__item__visual {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.sliderTV__item__caption {
+    position: absolute;
+    top: 0;
+    left: 320px;
+    width: 560px;
+}
+
+.sliderTV--focus {
+    opacity: 1;
+}
+
+    .sliderTV--focus img {
+        border: 5px rgba(255, 89, 0, 1) solid;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        -webkit-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-box-shadow: 2px 2px 40px -8px rgba(255,255,255,0.6);
+        -moz-box-shadow: 2px 2px 40px -8px rgba(255,255,255,0.6);
+        box-shadow: 2px 2px 40px -8px rgba(255,255,255,0.6);
+    }
+
+.movie img {
+    width: 280px;
+}
+
+.sliderTV__bullets {
+    position: absolute;
+    top: 470px;
+    width: inherit;
+    height: 25px;
+    text-align: center;
+}
+
+.sliderTV__bullet {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 4px;
+    border-radius: 2px;
+    background-color: darkgray;
+    -webkit-box-shadow: inset 2px 2px 10px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 2px 2px 10px 2px rgba(0,0,0,0.5);
+    box-shadow: inset 2px 2px 10px 2px rgba(0,0,0,0.5);
+}
+
+.sliderTV__bullet--active {
+    background-color: rgb(255, 106, 26);
+}
+
+.sliderTV__prev,
+.sliderTV__next {
+    font-size: 120px;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.sliderTV__prev {
+    position: absolute;
+    top: 110px;
+    left: -100px;
+    width: 50px;
+}
+
+.sliderTV__next {
+    position: absolute;
+    top: 110px;
+    left: 950px;
+    width: 50px;
+}
+
+#sliderTV__mask-up {
+    position: absolute;
+    top: -50px;
+    left: -100px;
+    width: 1100px;
+    height: 50px;
+    background: -moz-linear-gradient(top, rgba(30,30,30,1) 0%, rgba(30,30,30,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(30,30,30,1) 0%,rgba(30,30,30,0) 100%);
+    background: linear-gradient(to bottom, rgba(30,30,30,1) 0%,rgba(30,30,30,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e1e1e', endColorstr='#001e1e1e',GradientType=0 );
+}
+
+#sliderTV__mask-down {
+    position: absolute;
+    top: 500px;
+    left: -100px;
+    width: 1100px;
+    height: 50px;
+    background: -moz-linear-gradient(top, rgba(30,30,30,0) 0%, rgba(30,30,30,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(30,30,30,0) 0%,rgba(30,30,30,1) 100%);
+    background: linear-gradient(to bottom, rgba(30,30,30,0) 0%,rgba(30,30,30,1) 100%);
+}
+
+#help {
+    position: fixed;
+    right: 40px;
+    top: 150px;
+    width: 250px;
+    background-color: #3B3B3B;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    color: #8A8A8A;
+    -webkit-box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 2px rgba(0,0,0,0.75);
+    -moz-animation: fadeOut 1s ease-in 15s forwards;
+    -webkit-animation: fadeOut 1s ease-in 15s forwards;
+    -o-animation: fadeOut 1s ease-in 15s forwards;
+    animation: fadeOut 1s ease-in 15s forwards;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    -o-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+#help__input {
+    opacity: 0.6;
+}
