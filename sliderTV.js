@@ -1,4 +1,4 @@
-/*! SliderTV | The MIT License (MIT) | Copyright (c) 2016 gibbok */
+/*! SliderTV | The MIT License (MIT) | Copyright (c) 2016 GibboK */
 
 /**
 * SliderTV plugin.
