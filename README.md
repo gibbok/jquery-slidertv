@@ -106,7 +106,7 @@ Example:
     });
 ```
 
-## Demo
+## Examples
 
 #### Horizontal carousel
 ![SliderTV horizontal carousel](docs/slideTV-anim-h.gif)
