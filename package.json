@@ -12,7 +12,7 @@
         "jquery",
         "jquery-plugin"
     ],
-    "author": "gibboK",
+    "author": "GibboK",
     "license": "MIT",
     "devDependencies": {
         "bower": "^1.7.7",
