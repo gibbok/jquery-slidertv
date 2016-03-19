@@ -1,15 +1,18 @@
 {
-    "name": "smart-tv-infinite-carousel",
-    "version": "1.0.0",
-    "description": "Smart Tv Infinite Carousel is a jQuery plugin for navigating horizontally any HTML based content in a carousel-like fashion. The plugin is optimised for use in Smart Tv applications.",
-    "main": "infiniteCarousel.js",
+    "name": "jquery-slidertv",
+    "version": "1.0.1",
+    "description": "SliderTV is an easy-to-use jQuery slider plugin optimized for Smart TV apps.",
+    "main": "sliderTV.js",
     "keywords": [
+        "slider",
+        "carousel",
+        "smart tv app",
         "smart tv",
         "javascript",
         "jquery",
         "jquery-plugin"
     ],
-    "author": "GibboK",
+    "author": "gibboK",
     "license": "MIT",
     "devDependencies": {
         "bower": "^1.7.7",
