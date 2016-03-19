@@ -18,7 +18,7 @@ Use jQuery SliderTV for controlling any HTML based content in horizontal or vert
 - Add your HTML as shown in the [examples](examples).
 - Initialize SliderTV `$('#slider').sliderTV();`
 - Trigger events on the Slider to start the action!
-- Further information can be found in [docs](docs).
+- Further information can be found in [docs](docs/sliderTV.md).
 
 ### How do I run the examples?
 - First install all dependencies folder using:: `npm install`, `npm bower`.
