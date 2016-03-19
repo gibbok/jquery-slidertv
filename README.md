@@ -13,7 +13,7 @@ Use jQuery SliderTV for controlling any HTML based content in horizontal or vert
 ---
 
 ### Great! So how do I use it?
-- Install with [Bower](http://bower.io) `bower install sliderTV`.
+- Install with [Bower](http://bower.io) `bower install jquery-slidertv`.
 - Add a reference sliderTV.js in your html `<script src="sliderTV.min.js"></script>`.
 - Add your HTML as shown in the [examples](examples).
 - Initialize SliderTV `$('#slider').sliderTV();`
