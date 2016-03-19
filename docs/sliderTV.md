@@ -1,4 +1,5 @@
 <a name="SliderTV"></a>
+
 ## SliderTV : <code>object</code>
 SliderTV is an easy-to-use jQuery slider plugin optimized for Smart TV apps. Use jQuery SliderTV for controlling any HTML based content in horizontal or vertical order in a carousel-like fashion.
 
@@ -9,7 +10,7 @@ SliderTV is an easy-to-use jQuery slider plugin optimized for Smart TV apps. Use
 - [Examples folder](../examples) for working examples and common settings.
 
 **Version**: 1.0  
-**Author:** gibbok  
+**Author:** GibboK  
 **License**: The MIT License (MIT)  
 
 * [SliderTV](#SliderTV) : <code>object</code>
@@ -33,8 +34,10 @@ SliderTV is an easy-to-use jQuery slider plugin optimized for Smart TV apps. Use
     * [._moveTo()](#SliderTV._moveTo)
 
 <a name="SliderTV.defaults"></a>
+
 ### SliderTV.defaults : <code>object</code>
-Plugin's defaults are available using `$.fn.sliderTV.defaults;`.Example: `$.fn.sliderTV.defaults.animation.easing = 'swing';`.
+Plugin's defaults are available using `$.fn.sliderTV.defaults;`.
+Example: `$.fn.sliderTV.defaults.animation.easing = 'swing';`.
 
 **Kind**: static namespace of <code>[SliderTV](#SliderTV)</code>  
 **Properties**
@@ -49,6 +52,7 @@ Plugin's defaults are available using `$.fn.sliderTV.defaults;`.Example: `$.fn.
 | bullets.canShow | <code>boolean</code> | A boolean indicating if bullets will be rendered or not. |
 
 <a name="SliderTV.SliderTV"></a>
+
 ### SliderTV.SliderTV()
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 **Properties**
@@ -67,81 +71,97 @@ Plugin's defaults are available using `$.fn.sliderTV.defaults;`.Example: `$.fn.
 | _isAnimationOn | <code>boolean</code> | A boolean value indicating when an animation is on going. If true interaction on Slider are allowed, otherwise not. |
 
 <a name="SliderTV.init"></a>
+
 ### SliderTV.init()
 Initialize and start sequence.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._getId"></a>
+
 ### SliderTV._getId()
 Get the id for slider instance.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._listen"></a>
+
 ### SliderTV._listen()
 Listening to events triggered on the slider.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._calculateMidPoint"></a>
+
 ### SliderTV._calculateMidPoint()
 Calculate mid points for slider container.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._getItemDoms"></a>
+
 ### SliderTV._getItemDoms()
 Get DOMs for slidable items.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._setItemPositions"></a>
+
 ### SliderTV._setItemPositions()
 Set CSS position for slidable items.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._setFocus"></a>
+
 ### SliderTV._setFocus()
 Set focus on slidable item.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._removeFocus"></a>
+
 ### SliderTV._removeFocus()
 Remove focus from slidable item in focus.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._createBullets"></a>
+
 ### SliderTV._createBullets()
 Create a bullet list based on the number and status of slidable items.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._getBullets"></a>
+
 ### SliderTV._getBullets()
 Get dom for bullets container.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._updateBullets"></a>
+
 ### SliderTV._updateBullets()
 Update bullets and set active one.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._deactiveBullets"></a>
+
 ### SliderTV._deactiveBullets()
 Deactivate bullets.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._getNavigation"></a>
+
 ### SliderTV._getNavigation()
 Get dom for navigational elements.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._showHidePrevNext"></a>
+
 ### SliderTV._showHidePrevNext()
 Show or hide navigational elements.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._isItemExists"></a>
+
 ### SliderTV._isItemExists()
 Check if slidable item at a specific index exists.
 
 **Kind**: static method of <code>[SliderTV](#SliderTV)</code>  
 <a name="SliderTV._moveTo"></a>
+
 ### SliderTV._moveTo()
 Move slidable items in order to focus target.
 
