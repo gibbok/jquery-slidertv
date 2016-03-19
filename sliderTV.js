@@ -5,7 +5,7 @@
 * @description SliderTV is an easy-to-use jQuery slider plugin optimized for Smart TV apps. Use jQuery SliderTV for controlling any HTML based content in horizontal or vertical order in a carousel-like fashion.
 * @see [README.md]{@link ../README.md} for further information.
 * @see [Examples folder]{@link ../examples} for working examples and common settings.
-* @author gibbok
+* @author GibboK
 * @license The MIT License (MIT)
 * @version 1.0
 * @namespace SliderTV
