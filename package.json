@@ -1,6 +1,6 @@
 {
     "name": "jquery-slidertv",
-    "version": "1.0.5",
+    "version": "1.0.8",
     "description": "SliderTV is an easy-to-use jQuery slider plugin optimized for Smart TV apps.",
     "main": "sliderTV.js",
     "keywords": [
