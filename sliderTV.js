@@ -399,12 +399,5 @@
     $.fn[pluginName].defaults = defaults;
 })(jQuery, window, document);
 
-/*
-- bug when you click left arrow multiple time carousle move by one step
-- create arbitratioray focus on start after init
-*/
-
-
-
 
 
