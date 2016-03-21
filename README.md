@@ -21,7 +21,7 @@ Use jQuery SliderTV for controlling any HTML based content in horizontal or vert
 - Further information can be found in [docs](docs/sliderTV.md).
 
 ### How do I run the examples?
-- First install all dependencies folder using:: `npm install`, `npm bower`.
+- First install all dependencies folder using:: `npm install`, `bower install`.
 - Now runs your local server and open the examples: `gulp connect`, `gulp examples`.
 
 ---
